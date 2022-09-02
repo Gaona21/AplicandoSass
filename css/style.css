@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+  font-family: sans-serif; }
+
+.contenedorFormulario {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/fondoIniciarSecion.jpg");
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .contenedorFormulario .formulario {
+    width: 40%;
+    min-height: 50vh;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contenedorFormulario .formulario .contenidoFormulario {
+      width: 100%; }
+    .contenedorFormulario .formulario .tituloFormulrio {
+      width: 50%;
+      text-align: center;
+      font-size: 40px;
+      margin: auto;
+      margin-bottom: 20px; }
+    .contenedorFormulario .formulario .contenedorCampo {
+      width: 60%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px; }
+      .contenedorFormulario .formulario .contenedorCampo .label {
+        font-size: 20px; }
+      .contenedorFormulario .formulario .contenedorCampo .input {
+        width: 100%;
+        height: 30px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        background-color: transparent;
+        border: none; }
+        .contenedorFormulario .formulario .contenedorCampo .input:focus {
+          transition: 1s;
+          outline: none;
+          box-shadow: 0 0 1rem 0 white; }
+      .contenedorFormulario .formulario .contenedorCampo .linkRegistrate {
+        color: black;
+        text-align: center;
+        text-decoration: none; }
+    .contenedorFormulario .formulario .boton {
+      display: block;
+      margin: auto;
+      width: 60%;
+      height: 30px;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(5px);
+      border: none; }
+      .contenedorFormulario .formulario .boton:hover {
+        transition: 1s;
+        box-shadow: 0 0 1rem 0 white; }
